@@ -7,4 +7,4 @@ services:
   - docker build -t oharutz/docker-react -f Dokcerfile.dev .
 
   script:
-    - docker run -e CI=true oharutz/docker-react npm run test
+  - docker run -e CI=true oharutz/docker-react npm run test
